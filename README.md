@@ -6,14 +6,18 @@
 
 ## Что понадобится
 
-- Подписка Claude (Pro или выше): Claude Code входит в неё.
+- Подписка Claude Pro ($20 в месяц) или выше: Claude Code входит во все платные планы, на бесплатном его нет.
 - Mac. На Windows тоже работает, отличия — в конце инструкции.
 - Obsidian — бесплатно, obsidian.md.
 - Один вечер.
 
 ## Как поставить
 
-1. Поставь Claude Code: открой Терминал и вставь команду установки с официальной страницы Claude Code (раздел Quickstart). Затем напиши `claude` и войди в свой аккаунт.
+1. Поставь Claude Code: открой Терминал (Cmd+Пробел → «Терминал»), вставь команду и нажми Enter:
+
+   `curl -fsSL https://claude.ai/install.sh | bash`
+
+   На Windows — в PowerShell: `irm https://claude.ai/install.ps1 | iex`. Затем открой новое окно Терминала, напиши `claude` и войди в свой аккаунт Claude.
 2. В Claude Code напиши:
 
    `Установи второй мозг из https://github.com/ndsmirnov/claude-second-brain`
